@@ -49,7 +49,7 @@ skills:
       - "Audio Event Detection"
 
 # GitHub Pages settings
-theme: minimal
+remote_theme: jekyll/jekyll-theme-cayman 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
