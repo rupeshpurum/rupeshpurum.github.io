@@ -1,0 +1,58 @@
+# Site Configuration
+title: "Rupesh Purum - Data & AI Engineer"
+name: "Rupesh Purum"
+description: "Data & AI Engineer with 7 years experience in telecom, audio processing, and cloud data pipelines. Currently building media automation systems at Gangaji."
+
+# Profile settings
+profile_image: "assets/images/profile.jpg"
+email: "rupeshpurum@gmail.com"
+location: "Tampa, FL"
+
+# External links (only add the ones you want to show)
+external-links:
+  linkedin: rupeshpurum  # https://www.linkedin.com/in/rupeshpurum
+  github: rupeshpurum      # https://github.com/{your-username}
+
+# Skills organized by category
+skills:
+  - category: "Data Engineering"
+    tools:
+      - "Apache Spark"
+      - "Structured Streaming"
+      - "Apache Airflow"
+      - "Kafka"
+      - "ETL/ELT Pipelines"
+
+  - category: "Cloud & Infrastructure"
+    tools:
+      - "AWS"
+      - "Terraform"
+      - "Docker"
+      - "Snowflake"
+      - "Data Lakes"
+
+  - category: "Programming & Databases"
+    tools:
+      - "Python"
+      - "Java"
+      - "SQL"
+      - "PL/SQL"
+      - "PostgreSQL"
+      - "NoSQL"
+
+  - category: "AI/ML & Audio Processing"
+    tools:
+      - "Whisper"
+      - "PANNs"
+      - "YAMNet"
+      - "PyAnnote"
+      - "Audio Event Detection"
+
+# GitHub Pages settings
+theme: minimal
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Build settings
+markdown: kramdown
