@@ -1,0 +1,11 @@
+<section id="skills">
+  <h2>⚡ Skills</h2>
+  {% for skill in site.skills %}
+    <h3>{{ skill.category }}</h3>
+    <ul>
+      {% for tool in skill.tools %}
+        <li>{{ tool }}</li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</section>
