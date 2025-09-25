@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Open Graph for social sharing -->
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url | default: site.github.url }}">
+  <meta property="og:image" content="{{ site.profile_image | relative_url }}">
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <!-- Navigation / Jump links -->
+  <nav style="margin-bottom: 2em;">
+    <a href="#about">About</a> |
+    <a href="#skills">Skills</a> |
+    <a href="#projects">Projects</a> |
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Page content -->
+  {{ content }}
+
+  <!-- Footer / Contact -->
+  <footer style="margin-top: 4em; padding-top: 1em; border-top: 1px solid #ccc;">
+    <p>📧 <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    <p>© {{ site.name }} {{ 'now' | date: "%Y" }}</p>
+  </footer>
+</body>
+</html>
