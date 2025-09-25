@@ -4,6 +4,7 @@ title: Home
 ---
 
 # 👋 Hi, I’m Rupesh Purum
+**Building scalable data pipelines and AI-powered systems**
 
 I’m a **Data & AI Engineer** with 7 years of experience in telecom, audio processing, and cloud data pipelines.  
 Currently, I’m building media automation systems at Gangaji.
@@ -20,3 +21,7 @@ Currently, I’m building media automation systems at Gangaji.
 ---
 
 {% include skills.html %}
+
+---
+
+{% include projects.html %}

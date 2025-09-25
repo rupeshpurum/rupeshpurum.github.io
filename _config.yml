@@ -54,5 +54,22 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+projects:
+  - name: "Real-Time Audio Event Detection"
+    description: "Streaming pipeline for classifying sounds using Spark + Whisper. Case study coming soon."
+    tools: ["Spark", "Whisper", "Kafka"]
+    link: ""   # will add when repo/demo is ready
+
+  - name: "Telecom Data ETL Automation"
+    description: "Designed large-scale Airflow + Snowflake workflows for telecom data. Demo with public dataset in progress."
+    tools: ["Airflow", "Snowflake", "AWS"]
+    link: ""   # will add repo/demo later
+
+  - name: "AI-powered Media Automation"
+    description: "Developed workflows for audio segmentation and classification using PyAnnote and PANNs. Write-up coming soon."
+    tools: ["PyAnnote", "PANNs", "Docker"]
+    link: ""   # will add repo/demo later
+
+
 # Build settings
 markdown: kramdown
