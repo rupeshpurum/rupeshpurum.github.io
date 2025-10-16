@@ -13,62 +13,11 @@ external-links:
   linkedin: rupeshpurum  # https://www.linkedin.com/in/rupeshpurum
   github: rupeshpurum      # https://github.com/{your-username}
 
-# Skills organized by category
-skills:
-  - category: "Data Engineering"
-    tools:
-      - "Apache Spark"
-      - "Structured Streaming"
-      - "Apache Airflow"
-      - "Kafka"
-      - "ETL/ELT Pipelines"
-
-  - category: "Cloud & Infrastructure"
-    tools:
-      - "AWS"
-      - "Terraform"
-      - "Docker"
-      - "Snowflake"
-      - "Data Lakes"
-
-  - category: "Programming & Databases"
-    tools:
-      - "Python"
-      - "Java"
-      - "SQL"
-      - "PL/SQL"
-      - "PostgreSQL"
-      - "NoSQL"
-
-  - category: "AI/ML & Audio Processing"
-    tools:
-      - "Whisper"
-      - "PANNs"
-      - "YAMNet"
-      - "PyAnnote"
-      - "Audio Event Detection"
-
 # GitHub Pages settings
 remote_theme: pages-themes/cayman@v0.2.0 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-
-projects:
-  - name: "Real-Time Audio Event Detection"
-    description: "Streaming pipeline for classifying sounds using Spark + Whisper. Case study coming soon."
-    tools: ["Spark", "Whisper", "Kafka"]
-    link: ""   # will add when repo/demo is ready
-
-  - name: "Telecom Data ETL Automation"
-    description: "Designed large-scale Airflow + Snowflake workflows for telecom data. Demo with public dataset in progress."
-    tools: ["Airflow", "Snowflake", "AWS"]
-    link: ""   # will add repo/demo later
-
-  - name: "AI-powered Media Automation"
-    description: "Developed workflows for audio segmentation and classification using PyAnnote and PANNs. Write-up coming soon."
-    tools: ["PyAnnote", "PANNs", "Docker"]
-    link: ""   # will add repo/demo later
 
 
 # Build settings
