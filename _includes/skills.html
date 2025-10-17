@@ -1,10 +1,12 @@
 <section id="skills">
-  <h2>⚡ Skills</h2>
-  {% for skill in site.skills %}
-    <h3>{{ skill.category }}</h3>
-    <ul>
-      {% for tool in skill.tools %}
-        <li>{{ tool }}</li>
+  <h2>Skills</h2>
+  {% for category in site.data.skills %}
+    <h3>{{ category.category }}</h3>
+    <ul style="list-style-type: none; padding: 0;">
+      {% for skill in category.items %}
+        <li style="display: inline-block; background-color: #e0e0e0; border-radius: 5px; padding: 5px 10px; margin: 5px; font-size: 0.9em;">
+          {{ skill.name }}
+        </li>
       {% endfor %}
     </ul>
   {% endfor %}
